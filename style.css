@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+}
+
+header {
+    color: #fff;
+    background-color:#3500AF;
+    height: 90px;
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu {
+    width: 650px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 300px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 20px 0 20px;
+    text-transform: uppercase;
+}
+
+.container-search-car {
+        display: flex;
+        color: #fff;
+        background-color: #fff;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+}
+
+.search-product {
+    background-color:  #3500AF;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    padding: 12px;
+    font-size: 12px;
+}
+
+.product-car {
+    background-color:  #3500AF;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+hr{
+    width:100%;
+    height: 5px;
+    background-color: #3500AF;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.products-title{
+    display: block;
+    text-align: center;
+    color: #3500AF;
+    font-size: 32px;
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    align-items: center;
+}
+
+.card{
+    display: block;
+    margin: 20px;
+    float: left;
+}
