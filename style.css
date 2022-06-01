@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Arial";
+    font-family: "Roboto";
 }
 
 header {
@@ -68,6 +68,11 @@ header {
     font-size: 22px;
 }
 
+.products-title {
+    font-weight: bold;
+    font-size: 38px;
+}
+
 hr{
     width:100%;
     height: 5px;
@@ -94,4 +99,20 @@ section{
     display: block;
     margin: 20px;
     float: left;
+}
+
+.img-mouse {
+    height: 214px;
+    width: 250px;
+    background-image: url(./assets/img-mouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-keyboard {
+    height: 214px;
+    width: 185px;
+    background-image: url(./assets/img-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
