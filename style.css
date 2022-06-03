@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
-/* CSS Reset */
+/* CSS reset */
 * {
     margin: 0;
     padding: 0;
@@ -8,9 +8,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header content */
 header {
     color: #fff;
-    background-color:#3500AF;
+    background-color: #3500AF;
     height: 90px;
 }
 
@@ -46,16 +47,16 @@ header {
 }
 
 .container-search-car {
-        display: flex;
-        color: #fff;
-        background-color: #fff;
-        align-items: center;
-        justify-content: space-around;
-        padding: 10px;
+    display: flex;
+    color: #fff;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 .search-product {
-    background-color:  #3500AF;
+    background-color: #3500AF;
     border-radius: 20px;
     width: 300px;
     height: 40px;
@@ -79,7 +80,7 @@ header {
 }
 
 .product-car {
-    background-color:  #3500AF;
+    background-color: #3500AF;
     border-radius: 20px;
     width: 150px;
     height: 40px;
@@ -87,23 +88,25 @@ header {
     font-size: 22px;
 }
 
-hr{
-    width:100%;
+hr {
+    width: 100%;
     height: 5px;
     background-color: #3500AF;
 }
-main{
+
+/* Main section */
+main {
     display: flex;
     flex-wrap: wrap;
 }
 
 
-section{
+section {
     width: 100%;
     align-items: center;
 }
 
-.card{
+.card {
     display: block;
     margin: 20px;
     float: left;
@@ -162,7 +165,7 @@ section{
 footer {
     color: white;
     background-color: black;
-    width:100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -176,7 +179,7 @@ footer {
     margin: 10px;
 }
 
-.promotions h3{
+.promotions h3 {
     margin: 0px 0px 10px 0px;
 }
 
