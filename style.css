@@ -107,7 +107,6 @@ main {
 
 
 section {
-    width: 100%;
     align-items: center;
 }
 
@@ -189,6 +188,7 @@ section {
     background-image: url(./assets/img-mouse.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
 }
 
 .img-keyboard {
@@ -202,13 +202,15 @@ section {
 footer {
     color: white;
     background-color: black;
-    height: 214px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .footer-assets {
-    display: block;
-    float: left;
+    display: flex;
+    flex-direction: row;
     margin: 0px 12px;
     padding: 10px;
 }
@@ -216,7 +218,6 @@ footer {
 .promotions {
     height: 214px;
     width: 220px;
-
 }
 
 .promotions h3 {
