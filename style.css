@@ -8,6 +8,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 /* Header content */
 header {
     color: #fff;
@@ -19,6 +20,23 @@ header {
     width: 1200px;
     margin: 0 auto;
 }
+
+body {
+    min-height: 100vh;
+    margin: 0;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    max-height: 50px;
+}
+
+footer {
+    min-height: 50px;
+}
+
 
 .cabecalho {
     display: flex;
@@ -103,6 +121,7 @@ hr {
 main {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 
@@ -206,6 +225,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    width: 100%;
 }
 
 .footer-assets {
@@ -231,7 +251,7 @@ footer {
     width: 200px;
     height: 30px;
     padding: 6px;
-    text-align:left;
+    text-align: left;
 }
 
 .social-media {
@@ -244,14 +264,14 @@ footer {
 
 .social-media i {
     color: #fff;
-	height: 25px;
+    height: 25px;
     width: 25px;
 }
 
 .contact-info {
     height: 214px;
     width: 200px;
-    text-align:justify;
+    text-align: justify;
 }
 
 .contact-info h3 {
