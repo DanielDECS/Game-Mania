@@ -44,6 +44,10 @@ footer {
 
 .logo {
     width: 300px;
+} 
+
+.login {
+    margin: 20px;
 }
 
 .menu {
@@ -84,11 +88,6 @@ footer {
     display: inline-block;
 }
 
-.product-list {
-    height: 550px;
-    align-items: center;
-}
-
 .products-title {
     display: block;
     text-align: center;
@@ -118,11 +117,16 @@ hr {
 main {
     display: flex;
     flex-wrap: wrap;
-    align-items: space-between;
+    margin: 20px;
+
 }
 
 
 section {
+    align-items: center;
+}
+
+section .container {
     align-items: center;
 }
 
@@ -291,4 +295,10 @@ footer {
 .buttons-about a {
     text-decoration: none;
     color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 90vw;
+    }
 }
