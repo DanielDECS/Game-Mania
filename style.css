@@ -94,7 +94,6 @@ footer {
     color: #3500AF;
     font-weight: bold;
     font-size: 38px;
-    width: 100%;
     padding: 15px 0px 0px 0px;
 }
 
@@ -118,17 +117,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
-
-}
-
-
-section {
     align-items: center;
 }
 
-section .container {
-    align-items: center;
-}
 
 .card {
     border: 3px solid #3500AF;
