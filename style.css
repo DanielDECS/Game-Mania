@@ -15,11 +15,11 @@ header {
     background-color: #3500AF;
     height: 90px;
 }
-
-.container-grid {
+/* .container-grid {
     width: 1200px;
     margin: 0 auto;
-}
+}*/
+
 
 body {
     min-height: 100vh;
@@ -29,9 +29,6 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
-header {
-    max-height: 50px;
-}
 
 footer {
     min-height: 50px;
@@ -121,7 +118,7 @@ hr {
 main {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    align-items: space-between;
 }
 
 
@@ -133,8 +130,8 @@ section {
     border: 3px solid #3500AF;
     border-radius: 20px;
     display: block;
-    margin: 20px 10px;
-    padding: 20px 10px;
+    margin: 3px 3px;
+    padding: 10px 10px;
     float: left;
     color: #3500AF;
     text-align: center;
@@ -168,32 +165,32 @@ section {
 }
 
 .product1 {
-    height: 214px;
-    width: 250px;
+    height: 200px;
+    width: 230px;
     background-image: url(./assets/product1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .product2 {
-    height: 214px;
-    width: 250px;
+    height: 200px;
+    width: 230px;
     background-image: url(./assets/product2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .product3 {
-    height: 214px;
-    width: 250px;
+    height: 200px;
+    width: 230px;
     background-image: url(./assets/product3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .product4 {
-    height: 214px;
-    width: 250px;
+    height: 200px;
+    width: 230px;
     background-image: url(./assets/product4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -201,13 +198,22 @@ section {
 
 /* Footer content */
 
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
 .img-mouse {
     height: 214px;
     width: 250px;
     background-image: url(./assets/img-mouse.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: block;
+
 }
 
 .img-keyboard {
@@ -216,16 +222,6 @@ section {
     background-image: url(./assets/img-keyboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-footer {
-    color: white;
-    background-color: black;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
 }
 
 .footer-assets {
