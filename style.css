@@ -34,13 +34,14 @@ footer {
     min-height: 50px;
 }
 
-.menu-icon {
-    height: 50px;
-    width: 50px;
+
+
+
+#bars {
     visibility: hidden;
 }
 
-.cabecalho {
+.main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +55,7 @@ footer {
 .menu {
     width: 650px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end;   
 }
 
 .menu a {
@@ -62,8 +63,13 @@ footer {
     font-size: 23px;
     font-weight: bold;
     color: #fff;
-    margin: 0 20px 0 20px;
     text-transform: uppercase;
+    margin: 10px;
+}
+
+.menu-icon {
+    height: 50px;
+    width: 50px;
 }
 
 .container-search-car {
@@ -157,20 +163,21 @@ main {
     margin: 5px;
 }
 
-.card a {
-    text-decoration: none;
-    color: #fff;
-}
-
 .card-button {
     background-color: #3500AF;
     color: white;
     width: 100px;
     height: 30px;
-    padding: 5px;
-    margin: 10px;
     border-radius: 20px;
     display: inline-block;
+}
+
+.card-button a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+
 }
 
 .product-global {
@@ -329,18 +336,30 @@ footer {
         flex-direction: column;
     }
 
-    .menu-icon {
-        visibility: visible;
+    .main-header {
+        position: relative;
     }
 
-    .menu a {
-        visibility: hidden;
+    .menu {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 65px;
+
+        flex-direction: column;
+        background-color: #3500AF;
+        align-items: center;
+        width: 120px;
+        height: 140px;
+        border: 4px solid white;
+        border-radius: 20px;
+        margin-top: 10px;
+        padding-bottom: 10px;
     }
 
-    .img-keyboard {
+    #bars {
         visibility: visible;
+        display: inline-block;
     }
-    .img-mouse {
-        visibility: visible;
-    }
+
 }
