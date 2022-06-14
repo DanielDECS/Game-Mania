@@ -1,11 +1,32 @@
+
 // Função de exibição do menu de barras para layout responsivo
 $(document).ready(function() {
     $("#bars").click(function() {
         // Menu carousel
-        let listCard = [product1, product2, product3, product4]
+        // let cardActual = 1;
+        // let listCard = ["product1", "product2", "product3", "product4"]
         
-        
-        
+        // setInterval(changeProduct, 1000)
+
+        // function changeProduct() {
+
+        //     // Remove o card anterior
+        //     if (cardActual > 0) {
+        //         $("#cardlist").remove(listCard[cardActual - 1])
+        //     } else if (cardActual == 0) {
+        //         $("#cardlist").remove(listCard[(listCard.length) - 1])
+        //     }
+
+        //     // Adiciona o card atual
+        //     $("#cardlist").add(listCard[cardActual]);
+
+        //     // Indica o card atual
+        //     cardActual++
+        //     if (cardActual > (listCard.length) - 1) {
+        //         cardActual = 0;
+        //     }
+        // }
+            
         
         
         

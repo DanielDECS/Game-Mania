@@ -205,6 +205,9 @@ main {
     background-image: url(../assets/product4.jpg);
 }
 
+.carousel {
+    display: none;
+}
 
 /* Footer content */
 
@@ -371,9 +374,23 @@ footer {
         float: center;
         width: 100%;
         height: 100%;
+        margin: 3px 0px;
     }
 
-    #product2, #product3, #product4 {
+    /* #product2, #product3, #product4 {
+        display: none;
+    } */
+
+    .carousel {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .card-list {
         display: none;
     }
 
