@@ -1,3 +1,16 @@
+$(document).ready(function() {
+    $("#bars").click(function() {
+
+        if($("#menu").hasClass("menu-active")) {
+            $("#menu").removeClass("menu-active");
+        } else {
+            $("#menu").addClass("menu-active");
+        }
+    })
+})
+
+
+
 function showMenu() {
     let menu = document.getElementById("menu");
 
